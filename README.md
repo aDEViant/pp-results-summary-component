@@ -1,2 +1,2 @@
 # pp-results-summary-component
-A Frontend Mentor challenge
+A Frontend Mentor challenge.
