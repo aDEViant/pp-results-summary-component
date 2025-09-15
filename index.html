@@ -1,24 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Frontend Mentor - Results Summary Component</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <div class="main-container">
-    <div class="left-box">
-      <h3>Your Result</h3>
-      <div class="scoreCircle">
-        <p class="scoreGained">76</p>
-        <p class="totalScore">of 100</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Mentor - Results Summary Component</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="left-box">
+        <h3>Your Result</h3>
+        <div class="scoreCircle">
+          <p class="scoreGained">76</p>
+          <p class="totalScore">of 100</p>
+        </div>
+        <h1>Great</h1>
+        <p class="leftBoxDesciption">
+          You scored higher than 65% of <br />
+          the people who have taken <br />
+          these tests.
+        </p>
       </div>
-      <h1>Great</h1>
-      <p class="leftBoxDesciption">You scored higher than 65% of <br> the people who have taken <br> these tests.</p>
+
+      <div class="right-box">
+        <h3 class="summary">Summary</h3>
+        <div class="attributes reaction">
+          <img
+            class="reactionImage"
+            src="/Project Files/assets/images/icon-reaction.svg"
+            alt="Reaction Icon"
+          />
+          <p class="reactionText">Reaction</p>
+          <p class="reactionScore"><b>80</b> / 100</p>
+        </div>
+
+        <div class="attributes memory">
+          <img
+            class="memoryImage"
+            src="/Project Files/assets/images/icon-memory.svg"
+            alt="Memory Icon"
+          />
+          <p class="memoryText">Memory</p>
+          <p class="memoryScore"><b>92</b> / 100</p>
+        </div>
+
+        <div class="attributes verbal">
+          <img
+            class="verbalImage"
+            src="/Project Files/assets/images/icon-verbal.svg"
+            alt="Verbal Icon"
+          />
+          <p class="verbalText">Verbal</p>
+          <p class="verbalScore"><b>61</b> / 100</p>
+        </div>
+
+        <div class="attributes visual">
+          <img
+            class="visualImage"
+            src="/Project Files/assets/images/icon-visual.svg"
+            alt="Visual Icon"
+          />
+          <p class="visualText">Visual</p>
+          <p class="visualScore"><b>73</b> / 100</p>
+        </div>
+
+        <button class="continue">Continue</button>
+      </div>
     </div>
-    
-    <div class="right-box"></div>
-  </div>
-</body>
+  </body>
 </html>

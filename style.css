@@ -1,68 +1,146 @@
 /* Font */
-@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    height: 100vh;
-    width: 100vw;
-    background-color: hsl(221, 100%, 96%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: "Hanken Grotesk", sans-serif;
-    font-size: 18px;
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: hsl(221, 100%, 96%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 18px;
 }
 
-.main-container{
-    border: 2px solid black;
-    height: 70%;
-    width: 50%;
-    border-radius: 25px;
-    display: flex;
+.main-container {
+  /* border: 2px solid black; */
+  height: 70%;
+  width: 50%;
+  border-radius: 25px;
+  display: flex;
 }
 
-.left-box{
-    /* border: 2px solid black; */
-    height: 100%;
-    width: 50%;
-    border-radius: 25px;
-    background-color: hsl(252, 100%, 67%);
-    text-align: center;
-    color: hsl(0, 0%, 100%);
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: column;
+.left-box {
+  /* border: 2px solid black; */
+  height: 100%;
+  width: 50%;
+  border-radius: 25px;
+  background-color: hsl(252, 100%, 67%);
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
 }
 
-.scoreCircle{
-    /* border: 2px solid black; */
-    height: 45%;
-    width: 60%;
-    font-weight: 900;
-    border-radius: 50%;
-    background-color: hsla(256, 72%, 46%, 1);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.scoreCircle {
+  /* border: 2px solid black; */
+  height: 45%;
+  width: 60%;
+  font-weight: 900;
+  border-radius: 50%;
+  background-color: hsla(256, 72%, 46%, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-.scoreGained{
-    font-size: 5rem;
+.scoreGained {
+  font-size: 5rem;
 }
 
-.right-box{
-    border: 2px solid black;
-    height: 100%;
-    width: 50%;
-    width: 50%;
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
-    background-color: red;
+.right-box {
+  /* border: 2px solid black; */
+  padding: 20px;
+  height: 100%;
+  width: 50%;
+  width: 50%;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: hsl(0, 0%, 100%);
+}
+
+.summary {
+  margin-bottom: 10px;
+  margin-right: 180px;
+  color: hsl(224, 30%, 27%);
+}
+
+.attributes {
+  /* border: 2px solid black; */
+  width: 90%;
+  height: 10%;
+  margin: 15px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.reaction {
+  background-color: hsl(0, 100%, 95%);
+}
+
+.reactionText {
+  color: hsl(0, 100%, 67%);
+}
+
+.memory {
+  background-color: hsl(39, 100%, 95%);
+}
+
+.memoryText {
+  color: hsl(39, 100%, 56%);
+}
+
+.verbal {
+  background-color: hsl(166, 100%, 95%);
+}
+
+.verbalText {
+  color: hsl(166, 100%, 37%);
+}
+
+.visual {
+  background-color: hsl(234, 85%, 95%);
+}
+
+.visualText {
+  color: hsl(234, 85%, 45%);
+}
+
+.reactionImage,
+.memoryImage,
+.verbalImage,
+.visualImage {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.reactionScore,
+.memoryScore,
+.verbalScore,
+.visualScore {
+  margin-left: 75px;
+}
+
+.continue {
+  border: none;
+  margin-top: 10px;
+  height: 15%;
+  width: 90%;
+  border-radius: 50px;
+  font-size: 18px;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(224, 30%, 27%);
 }
